@@ -1,0 +1,62 @@
+:root {
+
+    --fuenteHeading: "AW Conqueror Didot Light";
+    --fuenteParrafos: museo, serif;
+
+    --blanco: white;
+    --negro: black;
+    --gris: rgb(32, 32, 32);
+  
+}
+
+body{
+  font-family: var(--fuenteParrafos);
+  color: var(--blanco);
+  font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  background: var(--gris);
+}
+
+.imagen-superior {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centramos un poco más arriba */
+    width: 60%; /* Ajustable */
+    max-width: 60%; /* evita que crezca demasiado */
+}
+
+.mapa{
+    width: 50%;
+}
+
+.lobo{
+    width: 30%;
+}
+
+.nosotros{
+    width: 90%;
+}
+
+.idea{
+    width: 60%;
+}
+
+p{
+    font-size: 15px;
+}
+
+.contacto{
+    width: 50%;
+}
+
+.texto{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.login{
+    text-decoration: none;
+}
